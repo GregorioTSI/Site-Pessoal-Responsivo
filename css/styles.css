@@ -60,16 +60,17 @@ body {
 
 #footer {
   background-color: red;
-  padding: 60px 0 20px 20px;
+  padding: 42px 0 20px 20px;
   display: flex-stretch;
   flex-direction: column;
 }
 
 #footer span {
+  display: flex ;
   color: white;
 }
 #footer img{
-  width: 20vh;
+  width: 30vh;
 }
 /*Regras pra dispositiveis moveis*/
 @media screen and (max-width: 600px) {
@@ -138,7 +139,12 @@ body {
     }
 
     #footer span {
+        padding-left: 2%;
         font-size: 80%;
+    }
+    #footer img{
+      padding-left: 2%;
+     display: flex;
     }
     #box {
       width: 100%   ;
